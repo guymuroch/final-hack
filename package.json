@@ -1,0 +1,25 @@
+{
+  "name": "example-create-react-app-express",
+  "version": "1.0.0",
+  "scripts": {
+    "client": "cd client && npm run start",
+    "server": "nodemon server",
+    "build": "node client/build.js",
+    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\""
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.1.0",
+    "email-templates": "^5.0.2",
+    "express": "^4.16.4",
+    "mysql2": "^1.6.1",
+    "nodejs-nodemailer-outlook": "^1.0.8",
+    "nodemailer": "^4.6.8",
+    "nodemon": "^1.18.4",
+    "pug": "^2.0.3",
+    "sequelize": "^4.41.0"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.0"
+  }
+}

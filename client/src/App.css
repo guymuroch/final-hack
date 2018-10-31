@@ -1,0 +1,418 @@
+body > #root > div {
+  height: 100vh;
+}
+/*************************
+register area
+***********************/
+.register {
+  height: 100%;
+  text-align: center;
+  background: url("./images//trading.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  color: #ffffff;
+}
+.register1 {
+  background: rgba(39, 62, 84, 0.82);
+  overflow: hidden;
+  height: 100%;
+  padding: 10px;
+  z-index: 2;
+  text-align: center;
+}
+.register1 h3 {
+  display: block;
+  float: right;
+  padding-right: 20%;
+  width: 500px;
+  font-size: 39px;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+@media only screen and (max-width: 770px) {
+  .register1 h3 {
+    font-size: 30px;
+    padding-right: 10%;
+    width: 40%;
+  }
+}
+#scales {
+  margin: 0;
+  display: inline;
+  height: 19px;
+  width: 50px;
+}
+.check {
+  padding-right: 75%;
+}
+.checkBox {
+  font-size: 30px;
+  width: 50px;
+}
+
+.register1 button {
+  width: 250px;
+  margin: 50px;
+  margin-top: 22px;
+  height: 30px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  display: block;
+  background-color: #f0483e;
+  color: #fff;
+  cursor: pointer;
+}
+.register1 input {
+  width: 250px;
+  margin: 50px;
+  height: 30px;
+  border-radius: 20px;
+  border: none;
+  text-align: center;
+  outline: none;
+  display: block;
+}
+
+.register-header {
+  padding: 10px;
+  height: 60px;
+}
+.register1 h4 {
+  position: absolute;
+  display: inline;
+  width: 200px;
+  background-color: white;
+  border-radius: 20px;
+  color: black;
+  top: 430px;
+  left: 6.5%;
+  font-size: 20px;
+  margin: 0;
+}
+.sign-in {
+  color: white;
+  height: 40px;
+  font-size: 30px;
+  font-weight: 900;
+  float: right;
+}
+/*************************
+Log in area
+***********************/
+.Login {
+  height: 100%;
+  text-align: center;
+  background: url("./images//trading.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  color: #ffffff;
+}
+.Login1 {
+  background: rgba(39, 62, 84, 0.82);
+  overflow: hidden;
+  height: 100%;
+  padding: 10px;
+  z-index: 2;
+  text-align: center;
+}
+.Login1 h3 {
+  display: block;
+  float: right;
+  padding-right: 20%;
+  width: 500px;
+  font-size: 39px;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+.Login-header {
+  padding: 10px;
+  height: 60px;
+}
+.Login1 button {
+  width: 300px;
+  margin-left: 40%;
+  margin-top: 80px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  display: block;
+  background-color: #f0483e;
+  color: #fff;
+  cursor: pointer;
+  font-size: 30px;
+}
+.Login1 input {
+  margin-left: 40%;
+  width: 300px;
+  margin-top: 80px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  text-align: center;
+  outline: none;
+  display: block;
+}
+.register-link {
+  color: white;
+  height: 40px;
+  font-size: 30px;
+  font-weight: 900;
+  float: right;
+}
+/*************************
+home area
+***********************/
+.seller {
+  width: 100%;
+  height: 100%;
+}
+.nav-bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(94, 89, 89);
+}
+.nav-bar li {
+  padding-left: 1%;
+  float: left;
+}
+.logOut {
+  float: right;
+}
+.nav-bar .name {
+  background-color: rgba(255, 255, 255, 0.719);
+  font-weight: 900;
+  width: 200px;
+  float: right;
+  letter-spacing: 2px;
+  transition: 0.7s;
+}
+.user-name {
+  padding-left: 90%;
+}
+.user-name1 {
+  width: 10%;
+  margin-left: 20%;
+  border-radius: 50%;
+  font-weight: 900;
+  background-color: red;
+  transition: 1s;
+}
+.nav-bar .name:hover {
+  padding-left: 20px;
+  background-color: red;
+  border-radius: 30px;
+}
+
+.nav-bar li a {
+  font-size: 30px;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/*************************
+Add-new area
+***********************/
+.AddNew {
+  padding: 10px;
+}
+.sales-logo {
+  background-image: url("./images/icons8-land-sales-80.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  margin-left: 45%;
+}
+.AddNew input {
+  width: 300px;
+  padding-left: 50px;
+  height: 30px;
+  margin: 20px;
+  outline: none;
+  border: none;
+  border-right: 1px black solid;
+  border-bottom: 2px black solid;
+}
+.start {
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  /* background-color: rgb(94, 89, 89); */
+}
+.start h1 {
+  margin: 0;
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 100;
+}
+.addProduct {
+  width: 30%;
+  background-color: red;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-left: 34%;
+  outline: none;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.addProduct:hover {
+  font-weight: bold;
+  font-size: 15px;
+}
+.addProduct:active {
+  padding: 3px;
+  width: 350px;
+}
+/*************************
+seller-home area
+***********************/
+.seller-repo {
+  padding-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.prodect {
+  text-align: center;
+  margin: 30px;
+  border: 0.5px black solid;
+  width: 31%;
+  height: fit-content;
+  padding: 1%;
+  border-radius: 40px;
+  box-sizing: border-box;
+  transition: 1.5s;
+}
+.delete-product {
+  width: 50%;
+  background-color: red;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  height: 30px;
+  transition: 0.2s;
+}
+.loding {
+  color: black;
+  font-weight: 900;
+}
+.add-product {
+  width: 48%;
+  margin: 3px;
+  background-color: green;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  height: 30px;
+  transition: 0.2s;
+}
+
+.add-product:hover {
+  font-weight: bold;
+  font-size: 15px;
+}
+.delete-product:hover {
+  font-weight: bold;
+  font-size: 15px;
+}
+.delete-product:active {
+  padding: 3px;
+}
+.add-product:active {
+  padding: 3px;
+}
+.product-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding: 1px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  border-radius: 20px;
+  height: 230px;
+}
+.prodect h2 {
+  margin: 0;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+.validCustomer {
+  color: red;
+}
+.empty-repo {
+  font-size: 40px;
+  text-align: center;
+}
+.empty-repo-logo {
+  background-image: url("./images/icons8-thumbs-down-64.png");
+  background-position: center;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 8%;
+  margin-left: 45%;
+  height: 100px;
+}
+.success-message {
+  position: absolute;
+  right: 38%;
+  margin-left: 100px;
+  border-radius: 20px;
+  width: 30%;
+  font-weight: 900;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 30px;
+  box-sizing: border-box;
+  height: 280px;
+  background-color: rgb(241, 233, 233);
+}
+.success-message1 {
+  position: absolute;
+  top: 50%;
+  right: 38%;
+  margin-left: 100px;
+  border-radius: 20px;
+  width: 29%;
+  font-weight: 900;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 30px;
+  box-sizing: border-box;
+  height: 280px;
+  background-color: rgb(241, 233, 233);
+}
+.message-icon1 {
+  background-image: url("./images/icons8-facebook-like-64.png");
+  width: 25%;
+  margin-left: 34.9%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 20px;
+  height: 90px;
+}
+.message-icon {
+  background-image: url("./images/icons8-facebook-like-64.png");
+  width: 27%;
+  margin-left: 34.9%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100px;
+}
